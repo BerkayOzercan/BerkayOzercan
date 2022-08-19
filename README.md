@@ -5,11 +5,14 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://codepen.io/berkayozercan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="berkayozercan" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/berkay özercan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="berkay özercan" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/berkay özercan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="berkay özercan" height="30" width="40" /></a>
+
 <a href="https://www.behance.net/berkayozercan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="berkayozercan" height="30" width="40" /></a>
+
+<a href="https://sketchfab.com/berkayster" target="blank"><img align="center" src="https://static.sketchfab.com/img/press/logos/sketchfab-logo-text-white-mono.svg" alt="berkayozercan" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/berkay özercan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="berkay özercan" height="30" width="40" /></a>
+<a href="https://codepen.io/berkayozercan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="berkayozercan" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
