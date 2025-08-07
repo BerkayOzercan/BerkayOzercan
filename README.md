@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Berkay</h1>
-<h3 align="center">A passionate game developer from Chicago, experienced .NET developer with 5+ years of building robust and scalable web applications using C#, ASP.NET MVC, and SQL Server.  In my free time, I'm a passionate Unity game developer, creating and experimenting with various game mechanics and C# scripting.  Proficient in implementing RESTful APIs and exploring how to integrate them with Unity games.  Passionate about clean code, best practices, and continuous improvement in both web and game development.</h3>
+<h1 align="center">Hi 👋, It's Berkay</h1>
 
 - 📫 How to reach me **berkayozercan@gmail.com**
 
