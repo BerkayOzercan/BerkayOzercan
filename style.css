@@ -149,3 +149,40 @@ footer {
     padding: 2rem;
     margin-top: 2rem;
 }
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--card-bg);
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.2s ease, background-color 0.2s;
+}
+
+.contact-item:hover {
+    transform: translateX(5px);
+    background-color: #334155;
+}
+
+.contact-item img {
+    width: 28px;
+    height: 28px;
+    margin-right: 1rem;
+    object-fit: contain;
+}
