@@ -79,7 +79,7 @@ Berkay is a multidisciplinary developer and designer based in Chicago. Originall
 - **Description:** Solo indie 3D physics-based medieval weapon game. Player controls a RigidBody3D weapon, smashes destructible environments, collects gold for upgrades, triggers force-multiplier tiers (Enchanted → Blazing → Ethereal). Side-scrolling perspective.
 - **Tech:** Godot 4, GDScript, custom shaders, Claude Code + MCP pipeline, Midjourney + Meshy for assets
 - **Status:** In active development, Day 1 marketing on Twitter/X and Bluesky
-- **Image asset:** `assets/crasherweapons.png` (use as placeholder until updated)
+- **Image asset:** `src/crasherweapons.png` (use as placeholder until updated)
 
 ### 2. Game Dashboard (In Progress — Web)
 - **Description:** Full-stack web app built as a learning vehicle for FastAPI + React + PostgreSQL. A personal game project tracker and dashboard.
@@ -90,31 +90,31 @@ Berkay is a multidisciplinary developer and designer based in Chicago. Originall
 - **Link:** https://apps.apple.com/us/app/beauty-mask/id6447192216
 - **Description:** Addictive simulation game — mix and match materials to craft the perfect face mask.
 - **Tech:** Unity, C#, Mobile (iOS)
-- **Image:** `assets/mask.png`
+- **Image:** `src/mask.png`
 
 ### 4. Drop and Merge (Shipped — Mobile)
 - **Link:** https://apps.apple.com/us/app/drop-and-merge/id1668967121
 - **Description:** Ball merge meets balance — a simple, immersive, and hypnotic puzzle experience.
 - **Tech:** Unity, C#, Mobile (iOS)
-- **Image:** `assets/dropnmerge.png`
+- **Image:** `src/dropnmerge.png`
 
 ### 5. Escape from Devil (Shipped — PC)
 - **Link:** https://thedebuglounge.itch.io/escape-from-devil
 - **Description:** Platformer puzzle game — solve levels before the devil teleports and captures you.
 - **Tech:** Unity, C#, PC (itch.io)
-- **Image:** `assets/escapefromdevil.png`
+- **Image:** `src/escapefromdevil.png`
 
 ### 6. Çanak Okey (Shipped — Mobile, Professional)
 - **Link:** https://apps.apple.com/us/app/çanak-okey-mynet-oyun/id536523082
 - **Description:** Award-winning multiplayer okey (tile) game loved by millions — real players, real fun.
 - **Tech:** Unity, Photoshop, Mobile (iOS)
-- **Image:** `assets/canakokey.png`
+- **Image:** `src/canakokey.png`
 
 ### 7. Word Rush (Shipped — Mobile, Professional)
 - **Link:** https://apps.apple.com/us/app/word-rush-race-with-friends/id1471499627
 - **Description:** Fast-paced multiplayer word game — challenge friends or meet new opponents worldwide.
 - **Tech:** Unity, Photoshop, Mobile (iOS)
-- **Image:** `assets/wordrush.png`
+- **Image:** `src/wordrush.png`
 
 ---
 
@@ -165,15 +165,17 @@ This is a single-file `index.html` — all CSS and JS must be inline (no externa
 5. **Contact** — Email, phone, LinkedIn, GitHub, X
 
 ### Existing assets to preserve (relative paths):
-- `assets/Logo.png` — site logo
-- `assets/Photo.jpg` — profile photo
-- `assets/crasherweapons.png`
-- `assets/mask.png`
-- `assets/dropnmerge.png`
-- `assets/escapefromdevil.png`
-- `assets/canakokey.png`
-- `assets/wordrush.png`
-- `assets/mail.png`, `assets/phone.png`, `assets/in.png`, `assets/git.png`, `assets/x.png`
+- `src/Logo.png` — site logo
+- `src/Photo.jpg` — profile photo
+- `src/crasherweapons.png`
+- `src/mask.png`
+- `src/dropnmerge.png`
+- `src/escapefromdevil.png`
+- `src/canakokey.png`
+- `src/wordrush.png`
+- `src/fastapi-gameserver-thumbnail.png`
+- `src/unity-dotnet-thumbnail.png`
+- `src/mail.png`, `src/phone.png`, `src/in.png`, `src/git.png`, `src/x.png`
 
 ### Functional requirements:
 - Fully responsive (mobile-first)
@@ -193,7 +195,7 @@ BerkayOzercan/
 ├── index.html          ← rebuilt portfolio site
 ├── README.md           ← GitHub profile README
 ├── CLAUDE.md           ← this file
-└── assets/
+└── src/
     ├── Logo.png
     ├── Photo.jpg
     ├── crasherweapons.png
@@ -239,7 +241,7 @@ BerkayOzercan/
 python -m http.server 8080
 
 # Check file sizes
-ls -lh assets/
+ls -lh src/
 du -sh .
 
 # Validate HTML

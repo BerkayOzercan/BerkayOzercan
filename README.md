@@ -1,9 +1,9 @@
-# Berkay Ozercan — Game Dev · UI/UX · Full-Stack
+# Berkay Ozercan — Software Engineer · Game Dev · Full-Stack
 
-**Building games, interfaces, and backends out of Chicago.**
+**Building games, and backends, 3D-2D game arts.**
 5+ years across mobile game development, product design, and web development. Currently shipping an indie game in Godot 4 and a full-stack web app with FastAPI + React.
 
-Open to Chicago-area roles in game development, UI/UX design, or web/backend engineering.
+Open to roles in game development, UI/UX design, or web/backend engineering.
 
 ---
 
@@ -54,18 +54,40 @@ Open to Chicago-area roles in game development, UI/UX design, or web/backend eng
 
 ## Currently Building
 
-**🦀 Regal Rust** — Indie physics game in Godot 4. Day-1 marketing on X and Bluesky. Built with a custom Claude Code + MCP pipeline for editor automation.
-
-**📊 Game Dashboard** — Learning vehicle for FastAPI + PostgreSQL + React. Full-stack, real database, no shortcuts.
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/BerkayOzercan/regal-rust-backend">
+        <img src="src/fastapi-gameserver-thumbnail.png" width="280" alt="Regal Rust Backend"/><br/>
+        <b>Regal Rust Backend</b>
+      </a><br/>
+      <sub>FastAPI · PostgreSQL · Python</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/BerkayOzercan/Unity-RestApi-Example">
+        <img src="src/unity-dotnet-thumbnail.png" width="280" alt="Unity REST API Example"/><br/>
+        <b>Unity REST API Example</b>
+      </a><br/>
+      <sub>Unity · C# · .NET · REST</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/BerkayOzercan/godot_mcp_server">
+        <img src="src/mcp_server_thumbnail.png" width="280" alt="Godot MCP Server"/><br/>
+        <b>Godot MCP Server</b>
+      </a><br/>
+      <sub>Godot 4 · GDScript · Python · Claude Code</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Open to Work
 
-Looking for roles in **Chicago** (or remote) across:
+Looking for roles:
+- 🌐 Web / Backend Development (Dotnet, Python, FastAPI)
 - 🎮 Game Development (Unity / Godot)
 - 🎨 UI/UX Design (mobile & web)
-- 🌐 Web / Backend Development (Python, FastAPI, React)
 
 ---
 
