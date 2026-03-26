@@ -57,9 +57,9 @@ Open to roles in game development, UI/UX design, or web/backend engineering.
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/BerkayOzercan/regal-rust-backend">
-        <img src="src/fastapi-gameserver-thumbnail.png" width="280" alt="Regal Rust Backend"/><br/>
-        <b>Regal Rust Backend</b>
+      <a href="https://github.com/BerkayOzercan/game-backend-api">
+        <img src="src/fastapi-gameserver-thumbnail.png" width="280" alt="Game Backend API"/><br/>
+        <b>Game Backend API</b>
       </a><br/>
       <sub>FastAPI · PostgreSQL · Python</sub>
     </td>
