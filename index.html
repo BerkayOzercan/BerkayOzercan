@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Dev Portfolio | Your Name</title>
+    <title>Berkay Ozercan | Game Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,139 +16,251 @@
         <nav>
             <div class="logo">
                 <img src="assets/Logo.png" alt="logo">
+                <span class="logo-text">Berkay Ozercan</span>
             </div>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="navMenu">
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Games</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="Enterance">
-        <img src="assets/Photo.jpg" alt="photo">
-        <span>Game Developer Generalist</span>
-        <h1>Berkay Ozercan</h1>
-        <p>Crafting worlds from lines of code. Sub-headline: I’m Berkay, a Game Developer specializing in
-            Unity / C# to create immersive gameplay and seamless mechanics. From initial prototype to final
-            polish, I bring ideas to life.</p>
-    </section>
-
-    <section id="projects" class="project-grid">
-        <h2>Games</h2>
-        <div class="container">
-            <a href="#" class="card" target="_blank">
-                <img src="assets/crasherweapons.png" alt="Game Screenshot" loading="lazy">
-                <div class="card-content">
-                    <h3>Crasher Weapons</h3>
-                    <p>Medieval 3D physics base movement simulation game.</p>
-                    <p>Work in progress...</p>
-                    <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">PC</span>
-                </div>
-            </a>
-            <a href="https://apps.apple.com/us/app/beauty-mask/id6447192216" class="card" target="_blank">
-                <img src="assets/mask.png" alt="mask" loading="lazy">
-                <div class="card-content">
-                    <h3>Beauty Mask</h3>
-                    <p>Indulge in the world of beauty and create your own custom face mask with Beauty Mask!, the
-                        addictive simulation game that lets you mix and match materials to create the perfect mask.</p>
-                    <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">Mobile</span>
-                </div>
-            </a>
-            <a href="https://apps.apple.com/us/app/drop-and-merge/id1668967121" class="card" target="_blank">
-                <img src="assets/dropnmerge.png" alt="dropnmerge" loading="lazy">
-                <div class="card-content">
-                    <h3>Drop and Merge</h3>
-                    <p>Drop and Merge for those looking for a simple and immersive game. The joy of classic ball merge
-                        games and the wonderful illusion effect created by balance games come together.</p>
-                    <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">Mobile</span>
-                </div>
-            </a>
-            <a href="https://thedebuglounge.itch.io/escape-from-devil" class="card" target="_blank">
-                <img src="assets/escapefromdevil.png" alt="devil" loading="lazy">
-                <div class="card-content">
-                    <h3>Escape from Devil</h3>
-                    <p>Escape from Devil is a platformer game where you must solve small puzzles and exit each level
-                        before the devil teleports and captures you.</p>
-                    <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">PC</span>
-                </div>
-            </a>
-            <a href="https://apps.apple.com/us/app/%C3%A7anak-okey-mynet-oyun/id536523082" class="card" target="_blank">
-                <img src="assets/canakokey.png" alt="canakokey" loading="lazy">
-                <div class="card-content">
-                    <h3>Canak Okey</h3>
-                    <p>Play with real people, chat, compete, and have fun in the award-winning multiplayer okey
-                        experience loved by millions. Download free, take your seat in seconds, and enjoy a
-                        strategy-driven twist with the unique “Çanak Okey” mechanic.</p>
-                    <span class="tag">Unity</span> <span class="tag">Photoshop</span> <span class="tag">Mobile</span>
-                </div>
-            </a>
-            <a href="https://apps.apple.com/us/app/word-rush-race-with-friends/id1471499627" class="card"
-                target="_blank">
-                <img src="assets/wordrush.png" alt="wordrush" loading="lazy">
-                <div class="card-content">
-                    <h3>Word Rush</h3>
-                    <p>With Word Rush you can match-up with or challenge opponents in the US or around the world,
-                        meeting new people along the way. Or, you can play with your friends! Either way, you learn more
-                        words, have fun and test your knowledge.</p>
-                    <span class="tag">Unity</span> <span class="tag">Photoshop</span> <span class="tag">Mobile</span>
-                </div>
-            </a>
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Available for opportunities</div>
+            <h1>Berkay <span class="gradient-text">Ozercan</span></h1>
+            <div class="hero-subtitle">Game Developer Generalist</div>
+            <p>Crafting immersive gameplay experiences with Unity & C#. From initial prototype to final polish — I bring ideas to life through clean mechanics, creative design, and technical precision.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Games</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
         </div>
-        <!-- <h2>Projects</h2>
-        <div class="container">
-            <a href="#" class="card" target="_blank">
-                <img src="https://placehold.co/600x400/1e293b/38bdf8?text=Project+Nebula" alt="Game Screenshot"
-                    loading="lazy">
-                <div class="card-content">
-                    <h3>Project Nebula</h3>
-                    <p>A fast-paced sci-fi shooter built in Unity.</p>
-                    <span class="tag">C#</span> <span class="tag">Unity</span>
-                </div>
-            </a>
-            <a href="#" class="card" target="_blank">
-                <img src="https://placehold.co/600x400/1e293b/38bdf8?text=Shadow+Realm" alt="Game Screenshot"
-                    loading="lazy">
-                <div class="card-content">
-                    <h3>Shadow Realm</h3>
-                    <p>Atmospheric 2D platformer with custom physics.</p>
-                    <span class="tag">C++</span> <span class="tag">Unreal Engine</span>
-                </div>
-            </a>
-        </div> -->
+        <div class="hero-image">
+            <div class="image-ring">
+                <img src="assets/Photo.jpg" alt="Berkay Ozercan">
+            </div>
+        </div>
     </section>
 
-    <div class="split-container">
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-grid">
-                <a href="mailto:berkayozercan@gmail.com" class="contact-item">
-                    <img src="assets/mail.png" alt="Email" loading="lazy">
-                    <span>berkayozercan@gmail.com</span>
+    <section id="about">
+        <div class="section-inner">
+            <div class="section-label">About Me</div>
+            <h2>Turning ideas into<br><span class="gradient-text">playable experiences</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a Game Developer Generalist with a passion for building games that feel great to play. Specializing in Unity and C#, I work across the full pipeline — from game design and prototyping to gameplay programming and final polish.</p>
+                    <p>I've shipped multiple mobile and PC titles and collaborated with cross-functional teams to deliver polished, user-loved experiences. I care deeply about game feel, intuitive mechanics, and creative problem-solving.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Games Shipped</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Platforms</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Bugs Fixed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-inner">
+            <div class="section-label">Tech Stack</div>
+            <h2>What I <span class="gradient-text">work with</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎮</div>
+                    <h3>Game Engines</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">Godot</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">GDScript</span>
+                        <span class="tag">ShaderLab</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Design Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Photoshop</span>
+                        <span class="tag">Illustrator</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Specializations</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Gameplay Programming</span>
+                        <span class="tag">Physics</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Mobile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-inner">
+            <div class="section-label">Portfolio</div>
+            <h2>Games I've <span class="gradient-text">built</span></h2>
+            <div class="games-grid">
+                <div class="game-card wip">
+                    <div class="wip-badge">In Progress</div>
+                    <img src="assets/crasherweapons.png" alt="Crasher Weapons" loading="lazy">
+                    <div class="card-content">
+                        <h3>Crasher Weapons</h3>
+                        <p>Medieval 3D physics-based movement simulation game.</p>
+                        <div class="card-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">PC</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://apps.apple.com/us/app/beauty-mask/id6447192216" class="game-card" target="_blank">
+                    <img src="assets/mask.png" alt="Beauty Mask" loading="lazy">
+                    <div class="card-content">
+                        <h3>Beauty Mask</h3>
+                        <p>Addictive simulation game — mix and match materials to craft the perfect face mask.</p>
+                        <div class="card-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
                 </a>
-                <a href="tel:+13123713634" class="contact-item">
-                    <img src="assets/phone.png" alt="Phone" loading="lazy">
-                    <span>+1 312 371 3634</span>
+                <a href="https://apps.apple.com/us/app/drop-and-merge/id1668967121" class="game-card" target="_blank">
+                    <img src="assets/dropnmerge.png" alt="Drop and Merge" loading="lazy">
+                    <div class="card-content">
+                        <h3>Drop and Merge</h3>
+                        <p>Ball merge meets balance — a simple, immersive, and hypnotic puzzle experience.</p>
+                        <div class="card-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
                 </a>
-                <a href="https://www.linkedin.com/in/berkay-ozercan-561a83a9/" target="_blank" class="contact-item">
-                    <img src="assets/in.png" alt="LinkedIn" loading="lazy">
-                    <span>LinkedIn</span>
+                <a href="https://thedebuglounge.itch.io/escape-from-devil" class="game-card" target="_blank">
+                    <img src="assets/escapefromdevil.png" alt="Escape from Devil" loading="lazy">
+                    <div class="card-content">
+                        <h3>Escape from Devil</h3>
+                        <p>Platformer puzzle game — solve levels before the devil teleports and captures you.</p>
+                        <div class="card-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">PC</span>
+                        </div>
+                    </div>
                 </a>
-                <a href="https://github.com/berkayozercan" target="_blank" class="contact-item">
-                    <img src="assets/git.png" alt="GitHub" loading="lazy">
-                    <span>GitHub</span>
+                <a href="https://apps.apple.com/us/app/%C3%A7anak-okey-mynet-oyun/id536523082" class="game-card" target="_blank">
+                    <img src="assets/canakokey.png" alt="Canak Okey" loading="lazy">
+                    <div class="card-content">
+                        <h3>Canak Okey</h3>
+                        <p>Award-winning multiplayer okey game loved by millions — real players, real fun.</p>
+                        <div class="card-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
                 </a>
-                <a href="https://x.com/craysenc" target="_blank" class="contact-item">
-                    <img src="assets/x.png" alt="X" loading="lazy">
-                    <span>X</span>
+                <a href="https://apps.apple.com/us/app/word-rush-race-with-friends/id1471499627" class="game-card" target="_blank">
+                    <img src="assets/wordrush.png" alt="Word Rush" loading="lazy">
+                    <div class="card-content">
+                        <h3>Word Rush</h3>
+                        <p>Fast-paced multiplayer word game — challenge friends or meet new opponents worldwide.</p>
+                        <div class="card-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
                 </a>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-inner">
+            <div class="section-label">Get In Touch</div>
+            <h2>Let's <span class="gradient-text">work together</span></h2>
+            <p class="contact-intro">Whether you have a project in mind, a job opportunity, or just want to say hello — my inbox is always open.</p>
+            <div class="contact-grid">
+                <a href="mailto:berkayozercan@gmail.com" class="contact-card">
+                    <img src="assets/mail.png" alt="Email">
+                    <div>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">berkayozercan@gmail.com</span>
+                    </div>
+                </a>
+                <a href="tel:+13123713634" class="contact-card">
+                    <img src="assets/phone.png" alt="Phone">
+                    <div>
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+1 312 371 3634</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/berkay-ozercan-561a83a9/" target="_blank" class="contact-card">
+                    <img src="assets/in.png" alt="LinkedIn">
+                    <div>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">berkay-ozercan</span>
+                    </div>
+                </a>
+                <a href="https://github.com/berkayozercan" target="_blank" class="contact-card">
+                    <img src="assets/git.png" alt="GitHub">
+                    <div>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">berkayozercan</span>
+                    </div>
+                </a>
+                <a href="https://x.com/craysenc" target="_blank" class="contact-card">
+                    <img src="assets/x.png" alt="X">
+                    <div>
+                        <span class="contact-label">X (Twitter)</span>
+                        <span class="contact-value">@craysenc</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; Berkay Ozercan | Made with 🎮 for Game Dev</p>
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <img src="assets/Logo.png" alt="logo">
+                <span>Berkay Ozercan</span>
+            </div>
+            <p>&copy; 2025 Berkay Ozercan. Crafted with passion for game dev.</p>
+        </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
